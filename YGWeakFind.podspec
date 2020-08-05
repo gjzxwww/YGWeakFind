@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YGWeakFind'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of YGWeakFind.'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/gjzxwyg@163.com/YGWeakFind'
+  s.homepage         = 'https://github.com/gjzxwww/YGWeakFind'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'gjzxwyg@163.com' => 'gjzxwyg@163.com' }
-  s.source           = { :git => 'https://github.com/gjzxwyg@163.com/YGWeakFind.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/gjzxwww/YGWeakFind.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
