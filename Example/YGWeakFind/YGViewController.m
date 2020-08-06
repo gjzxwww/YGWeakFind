@@ -7,6 +7,7 @@
 //
 
 #import "YGViewController.h"
+#import "TestViewController.h"
 
 @interface YGViewController ()
 
@@ -17,13 +18,22 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+	
+    
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+//    [self.navigationController pushViewController:[TestViewController new] animated:YES];
+    
+    [self presentViewController:[TestViewController new] animated:YES completion:nil];
 }
 
 @end
