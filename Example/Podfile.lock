@@ -1,0 +1,16 @@
+PODS:
+  - YGWeakFind (1.0.0)
+
+DEPENDENCIES:
+  - YGWeakFind (from `../`)
+
+EXTERNAL SOURCES:
+  YGWeakFind:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YGWeakFind: a83832f85e4f235dbc3bbf8a6e937f3f9db75d95
+
+PODFILE CHECKSUM: 308ab9c3ba92be0d8e8baca3edcb7d08a3ef12f7
+
+COCOAPODS: 1.8.4
